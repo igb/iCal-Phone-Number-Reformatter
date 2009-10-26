@@ -15,6 +15,7 @@
 		8D202CF10486D31800D8A456 /* iCalDialInFormatPref.m in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */; };
 		8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+		CCA3BFA4109639A300D6DBCA /* constants.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA3BFA3109639A300D6DBCA /* constants.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		32DBCFA20370C41700C91783 /* iCalDialInFormat_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCalDialInFormat_Prefix.pch; sourceTree = "<group>"; };
 		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D202CF80486D31800D8A456 /* iCalDialInFormat.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCalDialInFormat.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA3BFA3109639A300D6DBCA /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
 		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
 		F506C03C013D9D7901CA16C8 /* iCalDialInFormatPref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCalDialInFormatPref.h; sourceTree = "<group>"; };
 		F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCalDialInFormatPref.m; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			children = (
 				F506C03C013D9D7901CA16C8 /* iCalDialInFormatPref.h */,
 				F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */,
+				CCA3BFA3109639A300D6DBCA /* constants.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			files = (
 				8D202CEA0486D31800D8A456 /* iCalDialInFormat_Prefix.pch in Headers */,
 				8D202CEB0486D31800D8A456 /* iCalDialInFormatPref.h in Headers */,
+				CCA3BFA4109639A300D6DBCA /* constants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

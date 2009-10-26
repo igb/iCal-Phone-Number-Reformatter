@@ -12,8 +12,11 @@
 @interface iCalDialInFormatPref : NSPreferencePane 
 {
 
-	IBOutlet NSButton    *theCheckbox;
-	IBOutlet NSTextField *theTextField;
+
+	IBOutlet NSButton    *iPhoneCheckbox;
+	IBOutlet NSButton    *blackberryCheckbox;
+	IBOutlet NSButton    *activateFormatterCheckbox;
+
 
 	
 }
@@ -21,5 +24,9 @@
 - (id)initWithBundle:(NSBundle *)bundle;
 
 - (void) mainViewDidLoad;
+
+- (IBAction)iPhoneClicked:(id)sender;
+- (IBAction)blackberryClicked:(id)sender;
+- (IBAction)activateClicked:(id)sender;
 
 @end
