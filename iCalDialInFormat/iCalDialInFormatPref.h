@@ -12,7 +12,13 @@
 @interface iCalDialInFormatPref : NSPreferencePane 
 {
 
+	IBOutlet NSButton    *theCheckbox;
+	IBOutlet NSTextField *theTextField;
+
+	
 }
+
+- (id)initWithBundle:(NSBundle *)bundle;
 
 - (void) mainViewDidLoad;
 
