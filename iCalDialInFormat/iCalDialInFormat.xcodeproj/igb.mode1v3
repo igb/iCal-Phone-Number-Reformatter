@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>CC3D4007109E7BE800430876</string>
+						<string>CC3D4068109F8AD000430876</string>
 						<key>history</key>
 						<array>
 							<string>CC3D3D5D109C8D7500430876</string>
@@ -256,7 +256,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>CC3D4008109E7BE800430876</string>
+						<string>CC3D4069109F8AD000430876</string>
 						<key>history</key>
 						<array>
 							<string>CC3D3D5F109C8D7500430876</string>
@@ -296,7 +296,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>CC3D4009109E7BE800430876</string>
+						<string>CC3D406A109F8AD000430876</string>
 						<key>history</key>
 						<array>
 							<string>CCA3C1391098900900D6DBCA</string>
@@ -458,7 +458,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CC3D4006109E7BE800430876</string>
+										<string>CC3D4067109F8AD000430876</string>
 										<key>history</key>
 										<array>
 											<string>CCA3BFB710963E2F00D6DBCA</string>
@@ -467,7 +467,7 @@
 											<string>CCA3C1311098900900D6DBCA</string>
 											<string>CC3D3D47109C8BB200430876</string>
 											<string>CC3D3D48109C8BB200430876</string>
-											<string>CC3D3D70109C8F0C00430876</string>
+											<string>CC3D4053109F81FF00430876</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -676,9 +676,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CCA3BE501095518800D6DBCA</string>
 		<string>CCA3BFC610963E2F00D6DBCA</string>
 		<string>CCA3BEBD109561C200D6DBCA</string>
+		<string>CCA3BE501095518800D6DBCA</string>
 		<string>CCA3BEC0109561C200D6DBCA</string>
 		<string>/Users/igb/Documents/phoneformat/iCalDialInFormat/iCalDialInFormat.xcodeproj</string>
 	</array>
@@ -699,6 +699,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -721,8 +723,6 @@
 							<string>165pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -773,7 +773,7 @@
 			<key>WindowToolGUID</key>
 			<string>CCA3BE501095518800D6DBCA</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

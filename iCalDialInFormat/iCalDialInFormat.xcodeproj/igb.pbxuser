@@ -327,6 +327,31 @@
 			CC3D4007109E7BE800430876 /* PBXTextBookmark */ = CC3D4007109E7BE800430876 /* PBXTextBookmark */;
 			CC3D4008109E7BE800430876 /* PBXTextBookmark */ = CC3D4008109E7BE800430876 /* PBXTextBookmark */;
 			CC3D4009109E7BE800430876 /* PBXTextBookmark */ = CC3D4009109E7BE800430876 /* PBXTextBookmark */;
+			CC3D401C109F6DBB00430876 /* PBXTextBookmark */ = CC3D401C109F6DBB00430876 /* PBXTextBookmark */;
+			CC3D401D109F6DBB00430876 /* PBXTextBookmark */ = CC3D401D109F6DBB00430876 /* PBXTextBookmark */;
+			CC3D401E109F6DBB00430876 /* PBXTextBookmark */ = CC3D401E109F6DBB00430876 /* PBXTextBookmark */;
+			CC3D401F109F6DBB00430876 /* PBXTextBookmark */ = CC3D401F109F6DBB00430876 /* PBXTextBookmark */;
+			CC3D4026109F6DD500430876 /* PBXTextBookmark */ = CC3D4026109F6DD500430876 /* PBXTextBookmark */;
+			CC3D4027109F6DD500430876 /* PBXTextBookmark */ = CC3D4027109F6DD500430876 /* PBXTextBookmark */;
+			CC3D4028109F6DD500430876 /* PBXTextBookmark */ = CC3D4028109F6DD500430876 /* PBXTextBookmark */;
+			CC3D4029109F6DD500430876 /* PBXTextBookmark */ = CC3D4029109F6DD500430876 /* PBXTextBookmark */;
+			CC3D4030109F6E0C00430876 /* PBXTextBookmark */ = CC3D4030109F6E0C00430876 /* PBXTextBookmark */;
+			CC3D4031109F6E0C00430876 /* PBXTextBookmark */ = CC3D4031109F6E0C00430876 /* PBXTextBookmark */;
+			CC3D4032109F6E0C00430876 /* PBXTextBookmark */ = CC3D4032109F6E0C00430876 /* PBXTextBookmark */;
+			CC3D4033109F6E0C00430876 /* PBXTextBookmark */ = CC3D4033109F6E0C00430876 /* PBXTextBookmark */;
+			CC3D4040109F702400430876 /* PBXTextBookmark */ = CC3D4040109F702400430876 /* PBXTextBookmark */;
+			CC3D4041109F702400430876 /* PBXTextBookmark */ = CC3D4041109F702400430876 /* PBXTextBookmark */;
+			CC3D4042109F702400430876 /* PBXTextBookmark */ = CC3D4042109F702400430876 /* PBXTextBookmark */;
+			CC3D4043109F702400430876 /* PBXTextBookmark */ = CC3D4043109F702400430876 /* PBXTextBookmark */;
+			CC3D4053109F81FF00430876 /* PBXTextBookmark */ = CC3D4053109F81FF00430876 /* PBXTextBookmark */;
+			CC3D4054109F81FF00430876 /* PBXTextBookmark */ = CC3D4054109F81FF00430876 /* PBXTextBookmark */;
+			CC3D4055109F81FF00430876 /* PBXTextBookmark */ = CC3D4055109F81FF00430876 /* PBXTextBookmark */;
+			CC3D4056109F81FF00430876 /* PBXTextBookmark */ = CC3D4056109F81FF00430876 /* PBXTextBookmark */;
+			CC3D4057109F81FF00430876 /* PBXTextBookmark */ = CC3D4057109F81FF00430876 /* PBXTextBookmark */;
+			CC3D4067109F8AD000430876 /* PBXTextBookmark */ = CC3D4067109F8AD000430876 /* PBXTextBookmark */;
+			CC3D4068109F8AD000430876 /* PBXTextBookmark */ = CC3D4068109F8AD000430876 /* PBXTextBookmark */;
+			CC3D4069109F8AD000430876 /* PBXTextBookmark */ = CC3D4069109F8AD000430876 /* PBXTextBookmark */;
+			CC3D406A109F8AD000430876 /* PBXTextBookmark */ = CC3D406A109F8AD000430876 /* PBXTextBookmark */;
 			CCA3BEB3109561C200D6DBCA = CCA3BEB3109561C200D6DBCA /* PBXTextBookmark */;
 			CCA3BEB4109561C200D6DBCA = CCA3BEB4109561C200D6DBCA /* PBXTextBookmark */;
 			CCA3BEB5109561C200D6DBCA = CCA3BEB5109561C200D6DBCA /* PBXTextBookmark */;
@@ -461,7 +486,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 43";
 		rLen = 0;
-		rLoc = 1910;
+		rLoc = 2068;
 		rType = 0;
 		vrLen = 790;
 		vrLoc = 315;
@@ -481,7 +506,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 43";
 		rLen = 0;
-		rLoc = 1910;
+		rLoc = 2068;
 		rType = 0;
 		vrLen = 790;
 		vrLoc = 315;
@@ -501,7 +526,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 43";
 		rLen = 0;
-		rLoc = 1910;
+		rLoc = 2068;
 		rType = 0;
 		vrLen = 790;
 		vrLoc = 315;
@@ -521,7 +546,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 62";
 		rLen = 0;
-		rLoc = 2301;
+		rLoc = 2459;
 		rType = 0;
 		vrLen = 456;
 		vrLoc = 1393;
@@ -591,7 +616,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 1166;
 		vrLoc = 295;
@@ -631,7 +656,7 @@
 		comments = "warning: passing argument 1 of 'NSLog' from incompatible pointer type";
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		rLen = 1;
-		rLoc = 32;
+		rLoc = 43;
 		rType = 1;
 	};
 	CC3D3D6C109C8EE200430876 /* PBXTextBookmark */ = {
@@ -639,7 +664,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 259;
 		vrLoc = 346;
@@ -649,7 +674,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 661;
 		vrLoc = 257;
@@ -659,7 +684,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 581;
 		vrLoc = 257;
@@ -669,7 +694,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 1166;
 		vrLoc = 295;
@@ -699,7 +724,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 670;
 		vrLoc = 257;
@@ -709,7 +734,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 295;
@@ -739,7 +764,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 538;
 		vrLoc = 257;
@@ -749,7 +774,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 905;
 		vrLoc = 295;
@@ -779,7 +804,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 612;
 		vrLoc = 315;
@@ -789,7 +814,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 26";
 		rLen = 0;
-		rLoc = 683;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 929;
 		vrLoc = 92;
@@ -819,7 +844,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 24";
 		rLen = 0;
-		rLoc = 520;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 645;
 		vrLoc = 315;
@@ -829,7 +854,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 26";
 		rLen = 0;
-		rLoc = 683;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 962;
 		vrLoc = 92;
@@ -859,7 +884,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 648;
 		vrLoc = 315;
@@ -869,7 +894,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 27";
 		rLen = 0;
-		rLoc = 683;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 909;
 		vrLoc = 92;
@@ -899,7 +924,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 27";
 		rLen = 0;
-		rLoc = 647;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 668;
 		vrLoc = 340;
@@ -909,7 +934,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 27";
 		rLen = 0;
-		rLoc = 683;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 878;
 		vrLoc = 92;
@@ -939,7 +964,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 27";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 496;
 		vrLoc = 294;
@@ -949,7 +974,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 27";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 92;
@@ -979,7 +1004,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 27";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 500;
 		vrLoc = 294;
@@ -989,7 +1014,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 27";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 92;
@@ -1019,7 +1044,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 34";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 512;
 		vrLoc = 294;
@@ -1029,7 +1054,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 28";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 92;
@@ -1059,7 +1084,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 670;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 294;
@@ -1069,7 +1094,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 28";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 92;
@@ -1099,7 +1124,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 36";
 		rLen = 0;
-		rLoc = 1077;
+		rLoc = 1235;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 294;
@@ -1109,7 +1134,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 28";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 829;
 		vrLoc = 92;
@@ -1139,7 +1164,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 28";
 		rLen = 0;
-		rLoc = 647;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 559;
 		vrLoc = 294;
@@ -1149,7 +1174,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 28";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 92;
@@ -1179,7 +1204,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 21";
 		rLen = 0;
-		rLoc = 477;
+		rLoc = 697;
 		rType = 0;
 		vrLen = 457;
 		vrLoc = 340;
@@ -1189,7 +1214,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 92;
@@ -1219,7 +1244,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 38";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 294;
@@ -1229,7 +1254,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 92;
@@ -1269,7 +1294,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 92;
@@ -1299,7 +1324,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 37";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 500;
@@ -1309,7 +1334,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 829;
 		vrLoc = 92;
@@ -1339,7 +1364,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 37";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 500;
@@ -1349,7 +1374,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 827;
 		vrLoc = 92;
@@ -1379,7 +1404,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 38";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 500;
@@ -1389,7 +1414,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 92;
@@ -1419,7 +1444,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 38";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 527;
 		vrLoc = 500;
@@ -1429,7 +1454,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 852;
 		vrLoc = 92;
@@ -1459,7 +1484,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 36";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 500;
@@ -1469,7 +1494,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 899;
 		vrLoc = 92;
@@ -1499,7 +1524,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 36";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 534;
 		vrLoc = 500;
@@ -1509,7 +1534,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 92;
@@ -1539,7 +1564,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 37";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 534;
 		vrLoc = 500;
@@ -1549,7 +1574,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 92;
@@ -1579,7 +1604,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 38";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 504;
 		vrLoc = 500;
@@ -1589,7 +1614,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 829;
 		vrLoc = 92;
@@ -1619,7 +1644,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 39";
 		rLen = 0;
-		rLoc = 1074;
+		rLoc = 1232;
 		rType = 0;
 		vrLen = 508;
 		vrLoc = 500;
@@ -1629,7 +1654,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 832;
 		vrLoc = 92;
@@ -1659,7 +1684,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 36";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 509;
 		vrLoc = 447;
@@ -1669,7 +1694,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 856;
 		vrLoc = 92;
@@ -1699,7 +1724,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 36";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 595;
 		vrLoc = 447;
@@ -1709,7 +1734,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 748;
 		vrLoc = 92;
@@ -1739,7 +1764,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 37";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 447;
@@ -1749,7 +1774,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 788;
 		vrLoc = 92;
@@ -1779,7 +1804,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 43";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 447;
@@ -1789,7 +1814,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 92;
@@ -1819,7 +1844,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 43";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 468;
 		vrLoc = 447;
@@ -1829,7 +1854,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 92;
@@ -1859,7 +1884,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 43";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 472;
 		vrLoc = 447;
@@ -1869,7 +1894,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 823;
 		vrLoc = 92;
@@ -1899,7 +1924,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 43";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 519;
 		vrLoc = 535;
@@ -1909,7 +1934,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 834;
 		vrLoc = 92;
@@ -1939,7 +1964,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 37";
 		rLen = 0;
-		rLoc = 1070;
+		rLoc = 1228;
 		rType = 0;
 		vrLen = 439;
 		vrLoc = 417;
@@ -1949,7 +1974,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 722;
 		vrLoc = 92;
@@ -1979,7 +2004,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 37";
 		rLen = 0;
-		rLoc = 1070;
+		rLoc = 1228;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 662;
@@ -1989,7 +2014,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 764;
 		vrLoc = 92;
@@ -2019,7 +2044,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 40";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 794;
 		vrLoc = 662;
@@ -2029,7 +2054,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 92;
@@ -2059,7 +2084,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 40";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1231;
 		rType = 0;
 		vrLen = 497;
 		vrLoc = 340;
@@ -2069,7 +2094,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 92;
@@ -2099,7 +2124,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 37";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 819;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 420;
@@ -2109,7 +2134,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 92;
@@ -2139,7 +2164,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 40";
 		rLen = 0;
-		rLoc = 894;
+		rLoc = 998;
 		rType = 0;
 		vrLen = 691;
 		vrLoc = 420;
@@ -2149,7 +2174,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 1012;
 		vrLoc = 92;
@@ -2179,7 +2204,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 38";
 		rLen = 0;
-		rLoc = 789;
+		rLoc = 892;
 		rType = 0;
 		vrLen = 689;
 		vrLoc = 420;
@@ -2189,7 +2214,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 92;
@@ -2219,7 +2244,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 42";
 		rLen = 0;
-		rLoc = 1017;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 696;
 		vrLoc = 420;
@@ -2229,7 +2254,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 92;
@@ -2259,7 +2284,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 41";
 		rLen = 0;
-		rLoc = 913;
+		rLoc = 1018;
 		rType = 0;
 		vrLen = 695;
 		vrLoc = 420;
@@ -2269,7 +2294,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 903;
 		vrLoc = 92;
@@ -2299,7 +2324,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 38";
 		rLen = 0;
-		rLoc = 789;
+		rLoc = 892;
 		rType = 0;
 		vrLen = 693;
 		vrLoc = 420;
@@ -2309,7 +2334,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 92;
@@ -2339,7 +2364,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 41";
 		rLen = 0;
-		rLoc = 913;
+		rLoc = 1018;
 		rType = 0;
 		vrLen = 662;
 		vrLoc = 501;
@@ -2349,7 +2374,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 1024;
 		vrLoc = 92;
@@ -2379,7 +2404,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 38";
 		rLen = 0;
-		rLoc = 786;
+		rLoc = 889;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 501;
@@ -2389,7 +2414,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 902;
 		vrLoc = 92;
@@ -2419,7 +2444,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 37";
 		rLen = 0;
-		rLoc = 789;
+		rLoc = 892;
 		rType = 0;
 		vrLen = 532;
 		vrLoc = 501;
@@ -2429,7 +2454,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 814;
 		vrLoc = 92;
@@ -2459,7 +2484,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 40";
 		rLen = 0;
-		rLoc = 923;
+		rLoc = 1028;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 501;
@@ -2469,7 +2494,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 92;
@@ -2499,7 +2524,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 44";
 		rLen = 0;
-		rLoc = 1070;
+		rLoc = 1228;
 		rType = 0;
 		vrLen = 569;
 		vrLoc = 501;
@@ -2509,7 +2534,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 855;
 		vrLoc = 92;
@@ -2539,7 +2564,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 38";
 		rLen = 0;
-		rLoc = 789;
+		rLoc = 892;
 		rType = 0;
 		vrLen = 567;
 		vrLoc = 501;
@@ -2549,7 +2574,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 853;
 		vrLoc = 92;
@@ -2579,7 +2604,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 38";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 888;
 		rType = 0;
 		vrLen = 567;
 		vrLoc = 501;
@@ -2589,7 +2614,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 853;
 		vrLoc = 92;
@@ -2619,7 +2644,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 38";
 		rLen = 0;
-		rLoc = 789;
+		rLoc = 892;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 501;
@@ -2629,7 +2654,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 854;
 		vrLoc = 92;
@@ -2659,7 +2684,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 38";
 		rLen = 0;
-		rLoc = 789;
+		rLoc = 892;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 501;
@@ -2669,7 +2694,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 854;
 		vrLoc = 92;
@@ -2699,7 +2724,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 38";
 		rLen = 0;
-		rLoc = 789;
+		rLoc = 892;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 501;
@@ -2709,7 +2734,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 854;
 		vrLoc = 92;
@@ -2739,7 +2764,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 44";
 		rLen = 0;
-		rLoc = 1068;
+		rLoc = 1226;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 501;
@@ -2749,7 +2774,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 854;
 		vrLoc = 92;
@@ -2779,7 +2804,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 20";
 		rLen = 0;
-		rLoc = 371;
+		rLoc = 388;
 		rType = 0;
 		vrLen = 761;
 		vrLoc = 1006;
@@ -2789,7 +2814,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 36";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 875;
 		vrLoc = 92;
@@ -2819,7 +2844,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 51";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 1144;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 375;
@@ -2829,7 +2854,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 36";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 92;
@@ -2859,7 +2884,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 50";
 		rLen = 0;
-		rLoc = 963;
+		rLoc = 1108;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 562;
@@ -2869,7 +2894,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 36";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 92;
@@ -2899,7 +2924,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 45";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 888;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 562;
@@ -2909,7 +2934,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 36";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 860;
 		vrLoc = 92;
@@ -2939,7 +2964,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 45";
 		rLen = 0;
-		rLoc = 769;
+		rLoc = 851;
 		rType = 0;
 		vrLen = 522;
 		vrLoc = 562;
@@ -2949,7 +2974,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 36";
 		rLen = 0;
-		rLoc = 621;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 92;
@@ -2965,6 +2990,254 @@
 		vrLoc = 0;
 	};
 	CC3D4009109E7BE800430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCA3BFA3109639A300D6DBCA /* constants.h */;
+		name = "constants.h: 11";
+		rLen = 19;
+		rLoc = 227;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	CC3D401C109F6DBB00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		name = "iCalDialInFormatPref.m: 45";
+		rLen = 0;
+		rLoc = 851;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 562;
+	};
+	CC3D401D109F6DBB00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		name = "iCalDialInFormatPref.m: 36";
+		rLen = 0;
+		rLoc = 756;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 92;
+	};
+	CC3D401E109F6DBB00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03C013D9D7901CA16C8 /* iCalDialInFormatPref.h */;
+		name = "iCalDialInFormatPref.h: 12";
+		rLen = 16;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 0;
+	};
+	CC3D401F109F6DBB00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCA3BFA3109639A300D6DBCA /* constants.h */;
+		name = "constants.h: 11";
+		rLen = 19;
+		rLoc = 227;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	CC3D4026109F6DD500430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		name = "iCalDialInFormatPref.m: 45";
+		rLen = 0;
+		rLoc = 854;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 562;
+	};
+	CC3D4027109F6DD500430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		name = "iCalDialInFormatPref.m: 36";
+		rLen = 0;
+		rLoc = 756;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 92;
+	};
+	CC3D4028109F6DD500430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03C013D9D7901CA16C8 /* iCalDialInFormatPref.h */;
+		name = "iCalDialInFormatPref.h: 12";
+		rLen = 16;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 0;
+	};
+	CC3D4029109F6DD500430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCA3BFA3109639A300D6DBCA /* constants.h */;
+		name = "constants.h: 11";
+		rLen = 19;
+		rLoc = 227;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	CC3D4030109F6E0C00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		name = "iCalDialInFormatPref.m: 45";
+		rLen = 0;
+		rLoc = 854;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 562;
+	};
+	CC3D4031109F6E0C00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		name = "iCalDialInFormatPref.m: 36";
+		rLen = 0;
+		rLoc = 756;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 92;
+	};
+	CC3D4032109F6E0C00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03C013D9D7901CA16C8 /* iCalDialInFormatPref.h */;
+		name = "iCalDialInFormatPref.h: 12";
+		rLen = 16;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 0;
+	};
+	CC3D4033109F6E0C00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCA3BFA3109639A300D6DBCA /* constants.h */;
+		name = "constants.h: 11";
+		rLen = 19;
+		rLoc = 227;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	CC3D4040109F702400430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		name = "iCalDialInFormatPref.m: 20";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 463;
+		vrLoc = 199;
+	};
+	CC3D4041109F702400430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		name = "iCalDialInFormatPref.m: 36";
+		rLen = 0;
+		rLoc = 756;
+		rType = 0;
+		vrLen = 874;
+		vrLoc = 92;
+	};
+	CC3D4042109F702400430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03C013D9D7901CA16C8 /* iCalDialInFormatPref.h */;
+		name = "iCalDialInFormatPref.h: 12";
+		rLen = 16;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 0;
+	};
+	CC3D4043109F702400430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCA3BFA3109639A300D6DBCA /* constants.h */;
+		name = "constants.h: 11";
+		rLen = 19;
+		rLoc = 227;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	CC3D4053109F81FF00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: syntax error before 'setTarget'";
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		rLen = 1;
+		rLoc = 54;
+		rType = 1;
+	};
+	CC3D4054109F81FF00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		name = "iCalDialInFormatPref.m: 51";
+		rLen = 27;
+		rLoc = 1072;
+		rType = 0;
+		vrLen = 521;
+		vrLoc = 668;
+	};
+	CC3D4055109F81FF00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		name = "iCalDialInFormatPref.m: 50";
+		rLen = 0;
+		rLoc = 1070;
+		rType = 0;
+		vrLen = 870;
+		vrLoc = 314;
+	};
+	CC3D4056109F81FF00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03C013D9D7901CA16C8 /* iCalDialInFormatPref.h */;
+		name = "iCalDialInFormatPref.h: 12";
+		rLen = 16;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 0;
+	};
+	CC3D4057109F81FF00430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CCA3BFA3109639A300D6DBCA /* constants.h */;
+		name = "constants.h: 11";
+		rLen = 19;
+		rLoc = 227;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	CC3D4067109F8AD000430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		name = "iCalDialInFormatPref.m: 29";
+		rLen = 0;
+		rLoc = 574;
+		rType = 0;
+		vrLen = 438;
+		vrLoc = 350;
+	};
+	CC3D4068109F8AD000430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
+		name = "iCalDialInFormatPref.m: 54";
+		rLen = 0;
+		rLoc = 1070;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 314;
+	};
+	CC3D4069109F8AD000430876 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03C013D9D7901CA16C8 /* iCalDialInFormatPref.h */;
+		name = "iCalDialInFormatPref.h: 12";
+		rLen = 16;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 0;
+	};
+	CC3D406A109F8AD000430876 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = CCA3BFA3109639A300D6DBCA /* constants.h */;
 		name = "constants.h: 11";
@@ -3010,7 +3283,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 18";
 		rLen = 1;
-		rLoc = 2147;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 219;
 		vrLoc = 51;
@@ -3030,7 +3303,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 1;
-		rLoc = 2147;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 308;
 		vrLoc = 0;
@@ -3050,7 +3323,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 1;
-		rLoc = 2147;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 308;
 		vrLoc = 0;
@@ -3070,7 +3343,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 1;
-		rLoc = 2147;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 308;
 		vrLoc = 0;
@@ -3090,7 +3363,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 23";
 		rLen = 1;
-		rLoc = 2147;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 308;
 		vrLoc = 0;
@@ -3150,7 +3423,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 31";
 		rLen = 1;
-		rLoc = 2147;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 352;
 		vrLoc = 0;
@@ -3170,7 +3443,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 45";
 		rLen = 0;
-		rLoc = 2420;
+		rLoc = 2578;
 		rType = 0;
 		vrLen = 710;
 		vrLoc = 571;
@@ -3238,7 +3511,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 20";
 		rLen = 0;
-		rLoc = 1259;
+		rLoc = 1417;
 		rType = 0;
 		vrLen = 584;
 		vrLoc = 158;
@@ -3268,7 +3541,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 44";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 2160;
 		rType = 0;
 		vrLen = 504;
 		vrLoc = 0;
@@ -3278,7 +3551,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 92";
 		rLen = 0;
-		rLoc = 3006;
+		rLoc = 3164;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 598;
@@ -3298,7 +3571,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 42";
 		rLen = 0;
-		rLoc = 1910;
+		rLoc = 2068;
 		rType = 0;
 		vrLen = 519;
 		vrLoc = 1056;
@@ -3338,7 +3611,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 42";
 		rLen = 0;
-		rLoc = 1910;
+		rLoc = 2068;
 		rType = 0;
 		vrLen = 519;
 		vrLoc = 1056;
@@ -3494,7 +3767,7 @@
 		fRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */;
 		name = "iCalDialInFormatPref.m: 29";
 		rLen = 18;
-		rLoc = 1413;
+		rLoc = 1571;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 0;
@@ -3519,9 +3792,9 @@
 	};
 	F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 2100}}";
-			sepNavSelRange = "{621, 0}";
-			sepNavVisRange = "{92, 862}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 2282}}";
+			sepNavSelRange = "{1070, 0}";
+			sepNavVisRange = "{314, 921}";
 			sepNavWindowFrame = "{{456, 45}, {750, 733}}";
 		};
 	};

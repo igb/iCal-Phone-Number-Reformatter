@@ -17,10 +17,21 @@ CFStringRef appID;
 
 
 - (IBAction)myAction:(id)sender {
-	NSLog(@"in action");
+	NSLog(@"calendar %i", [sender tag]	);
 }
 
+- (NSView*)getCalendarPane {
+	
+	NSArray* mySubviews = [[self mainView] subviews];
+	
+	for (id subview in mySubviews) {
+		if([[subview className]isEqualToString:@"NSBox"]) {
+			return subview;
+		}	
+	}
+	
 
+}
 
 - (void) mainViewDidLoad
 {
@@ -28,29 +39,24 @@ CFStringRef appID;
 	NSArray* calendars=[[CalCalendarStore defaultCalendarStore] calendars];
 
 	
-	NSView* calendarListPane;
+	NSView* calendarListPane = [self getCalendarPane];
 	
-	NSArray* mySubviews = [[self mainView] subviews];
 
-	for (id subview in mySubviews) {
-		if([[subview className]isEqualToString:@"NSBox"]) {
-			calendarListPane=subview;
-		}	
-	}
+	int calendarsArrayIndex=0;
 
-	int offset=0;
 	
 	for (id cal in calendars) {
 	
-	NSRect frame = NSMakeRect(10, 300 - offset, 100, 10); 
-	NSButton *button = [[NSButton alloc] initWithFrame:frame]; 
+	 NSRect frame = NSMakeRect(10, 200 - (calendarsArrayIndex * 30), 100, 15); 
+	 NSButton *button = [[NSButton alloc] initWithFrame:frame]; 
 	 [button setButtonType:NSSwitchButton];
-	[button setTitle:[cal title]];
-		[button setTarget:self];
-		[button setAction:@selector(myAction:)];
-		[calendarListPane addSubview:button]; 
-	[button release];
-		offset+=40;
+	 [button setTitle:[cal title]];
+	 [button setTag:calendarsArrayIndex];	
+	 [button setTarget:self];
+	 [button setAction:@selector(myAction:)];
+	 [calendarListPane addSubview:button]; 
+	 [button release];
+	 calendarsArrayIndex+=1;
 	
 
 	}
