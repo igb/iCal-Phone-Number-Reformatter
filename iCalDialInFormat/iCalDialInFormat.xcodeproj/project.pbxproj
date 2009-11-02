@@ -15,6 +15,7 @@
 		8D202CF10486D31800D8A456 /* iCalDialInFormatPref.m in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */; };
 		8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+		CC3D3D1F109C86EF00430876 /* CalendarStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA3C033109676F800D6DBCA /* CalendarStore.framework */; };
 		CCA3BFA4109639A300D6DBCA /* constants.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA3BFA3109639A300D6DBCA /* constants.h */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D202CF80486D31800D8A456 /* iCalDialInFormat.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCalDialInFormat.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA3BFA3109639A300D6DBCA /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		CCA3C02F109676F300D6DBCA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CCA3C033109676F800D6DBCA /* CalendarStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CalendarStore.framework; path = System/Library/Frameworks/CalendarStore.framework; sourceTree = SDKROOT; };
 		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
 		F506C03C013D9D7901CA16C8 /* iCalDialInFormatPref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCalDialInFormatPref.h; sourceTree = "<group>"; };
 		F506C03D013D9D7901CA16C8 /* iCalDialInFormatPref.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCalDialInFormatPref.m; sourceTree = "<group>"; };
@@ -41,6 +44,7 @@
 			files = (
 				8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */,
 				8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */,
+				CC3D3D1F109C86EF00430876 /* CalendarStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +59,8 @@
 				089C167CFE841241C02AAC07 /* Resources */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
+				CCA3C02F109676F300D6DBCA /* Cocoa.framework */,
+				CCA3C033109676F800D6DBCA /* CalendarStore.framework */,
 			);
 			name = iCalDialInFormat;
 			sourceTree = "<group>";

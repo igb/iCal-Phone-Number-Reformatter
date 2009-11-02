@@ -5,6 +5,7 @@
 //  Created by Ian Brown on 10/25/09.
 //  Copyright (c) 2009 __MyCompanyName__. All rights reserved.
 //
+#include <CalendarStore/CalendarStore.h>
 
 #import "iCalDialInFormatPref.h"
 #import "constants.h"
@@ -14,14 +15,55 @@
 
 CFStringRef appID;
 
+
+- (IBAction)myAction:(id)sender {
+	NSLog(@"in action");
+}
+
+
+
 - (void) mainViewDidLoad
 {
+	
+	NSArray* calendars=[[CalCalendarStore defaultCalendarStore] calendars];
+
+	
+	NSView* calendarListPane;
+	
+	NSArray* mySubviews = [[self mainView] subviews];
+
+	for (id subview in mySubviews) {
+		if([[subview className]isEqualToString:@"NSBox"]) {
+			calendarListPane=subview;
+		}	
+	}
+
+	int offset=0;
+	
+	for (id cal in calendars) {
+	
+	NSRect frame = NSMakeRect(10, 300 - offset, 100, 10); 
+	NSButton *button = [[NSButton alloc] initWithFrame:frame]; 
+	 [button setButtonType:NSSwitchButton];
+	[button setTitle:[cal title]];
+		[button setTarget:self];
+		[button setAction:@selector(myAction:)];
+		[calendarListPane addSubview:button]; 
+	[button release];
+		offset+=40;
+	
+
+	}
+
+
+
+	
 	
 	CFPropertyListRef iPhoneCheckboxValue;
 	CFPropertyListRef blackberryCheckboxValue;
 	CFPropertyListRef isActiveValue;
 
-
+	
 
 	
 	iPhoneCheckboxValue = CFPreferencesCopyAppValue(FORMAT_FOR_IPHONE,  appID );
@@ -55,6 +97,7 @@ CFStringRef appID;
 		appID = APP_ID;
 	}
 	NSLog(@"appID is %@", appID);
+	
 	return self;
 	
 }
