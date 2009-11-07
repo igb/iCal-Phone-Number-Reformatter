@@ -9,9 +9,26 @@
 
 
 
-NSString* extract_single_value_for_regex(NSString *calendarData, NSString* regex)
+NSString* extract_single_value_for_regex(NSString *data, NSString* regex)
 {       
 	
+	NSArray  *capturesArray = NULL;
+	
+	capturesArray = [[data uppercaseString] arrayOfCaptureComponentsMatchedByRegex:regex];
+	
+	
+	
+	if ([capturesArray count] !=1) {
+		return nil;
+	} else {
+		
+		NSArray* results=[capturesArray objectAtIndex:0];
+		if ([results count] !=2) {
+			return nil;
+		} else {
+			return [results objectAtIndex:1];
+		}
+	}
 	
 	
 }
@@ -21,26 +38,26 @@ NSString* extract_single_value_for_regex(NSString *calendarData, NSString* regex
 NSString* extract_passcode(NSString *calendarData)
 {       
 	
-	NSString *passcodeRegex   = @"PASS.*CODE[ :]*([0-9]+)";
-
-	NSArray  *capturesArray = NULL;
 	
-	capturesArray = [[calendarData uppercaseString] arrayOfCaptureComponentsMatchedByRegex:passcodeRegex];
+	NSMutableArray* passcodeStrategies=[[NSMutableArray alloc] init];
+	
+	[passcodeStrategies addObject:REGEX_PASS_CODE];
+	[passcodeStrategies addObject:REGEX_PARTICIPANT_CODE];
+	[passcodeStrategies addObject:REGEX_PC_ABBREV];
 	
 	
+	for (id regex in passcodeStrategies) {
 	
-	if ([capturesArray count] !=1) {
-		return nil;
-	} else {
-
-		NSArray* results=[capturesArray objectAtIndex:0];
-		if ([results count] !=2) {
-			return nil;
-		} else {
-			return [results objectAtIndex:1];
+		NSString* passcode=nil;
+	
+		passcode=extract_single_value_for_regex(calendarData,	regex);
+	
+		if (passcode) {
+			return passcode;
 		}
 	}
-	
+	return nil;
+		
 }
 
 
@@ -86,11 +103,11 @@ int main (int argc, const char * argv[]) {
 			// Fetch all events for this year
 			NSArray *events = [[CalCalendarStore defaultCalendarStore] eventsWithPredicate:eventsForThisYear];
 			id myEvent;
-			NSString* passcode;
-			
+			int count=0;
 			for (id event in events) {
 				
-				
+				NSString* passcode=nil;
+
 				
 				// CHECK LOCATION FOR PASSCODE
 				
@@ -110,10 +127,14 @@ int main (int argc, const char * argv[]) {
 					
 				}
 				
-				NSLog(@"%@-%@", [event title], passcode);
+				if(passcode != nil) {
+					NSLog(@"FOUNDEVENT: %@-%@", [event title], passcode);
+					count++;
+				}
  
 				
 			}
+			NSLog(@"found %i events with passcode", count);
 			
 			//((CalCalendarItem*)myEvent).title=@"BTS"; 
 			
