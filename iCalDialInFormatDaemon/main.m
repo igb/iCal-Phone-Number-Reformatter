@@ -7,6 +7,43 @@
 
 #import "../iCalDialInFormat/constants.h"
 
+
+
+NSString* extract_single_value_for_regex(NSString *calendarData, NSString* regex)
+{       
+	
+	
+	
+}
+
+
+
+NSString* extract_passcode(NSString *calendarData)
+{       
+	
+	NSString *passcodeRegex   = @"PASS.*CODE[ :]*([0-9]+)";
+
+	NSArray  *capturesArray = NULL;
+	
+	capturesArray = [[calendarData uppercaseString] arrayOfCaptureComponentsMatchedByRegex:passcodeRegex];
+	
+	
+	
+	if ([capturesArray count] !=1) {
+		return nil;
+	} else {
+
+		NSArray* results=[capturesArray objectAtIndex:0];
+		if ([results count] !=2) {
+			return nil;
+		} else {
+			return [results objectAtIndex:1];
+		}
+	}
+	
+}
+
+
 int main (int argc, const char * argv[]) {
 	
 	NSAutoreleasePool	 *autoreleasepool = [[NSAutoreleasePool alloc] init];
@@ -39,7 +76,6 @@ int main (int argc, const char * argv[]) {
 			// do thread work
 			// Create a predicate to fetch all events for this year
 			NSInteger year = [[NSCalendarDate date] yearOfCommonEra];
-			NSLog(@"here");
 			
 			NSDate *startDate = [[NSCalendarDate dateWithYear:year month:1 day:1 hour:0 minute:0 second:0 timeZone:nil] retain];
 			NSDate *endDate = [[NSCalendarDate dateWithYear:year month:12 day:31 hour:23 minute:59 second:59 timeZone:nil] retain];
@@ -50,24 +86,32 @@ int main (int argc, const char * argv[]) {
 			// Fetch all events for this year
 			NSArray *events = [[CalCalendarStore defaultCalendarStore] eventsWithPredicate:eventsForThisYear];
 			id myEvent;
+			NSString* passcode;
+			
 			for (id event in events) {
-				if ( [event location] != nil  ) {
+				
+				
+				
+				// CHECK LOCATION FOR PASSCODE
+				
+				if ( [event location] != nil ) {
 					
+					passcode=extract_passcode([event location]);					
 					
-					NSString *regexString   = @"(1\\-)*(\\d+\\-\\d+\\-\\d+)[ a-zA-Z:]*(\\d+)";
-					NSArray  *capturesArray = NULL;
-					
-					capturesArray = [[event location] arrayOfCaptureComponentsMatchedByRegex:regexString];
-					
-					
-					NSLog(@"capturesArray: %@", capturesArray);
-					
-					
-					
-					
-					NSLog(@"%@", [event notes]);
-					myEvent=event;
 				}
+				
+				// CHECK NOTES FOR PASSCODE
+
+				if ( [event notes] != nil  ) {
+				
+					
+					passcode=extract_passcode([event notes]);
+					
+					
+				}
+				
+				NSLog(@"%@-%@", [event title], passcode);
+ 
 				
 			}
 			
@@ -90,3 +134,8 @@ int main (int argc, const char * argv[]) {
 	
     return 0;
 }
+
+
+
+
+
