@@ -39,11 +39,21 @@ CFStringRef appID;
 		
 		
 		
-		[calendars objectAtIndex:[sender tag]];
-		NSLog(@"cal array %@", calendars);
+		
 		CalCalendar*  cal = [calendars objectAtIndex:[sender tag]];
+		
+		CFPropertyListRef thisCalIsActive=CFPreferencesCopyAppValue([cal uid],  appID );
+
+		if ( [sender state] )
+			CFPreferencesSetAppValue([cal uid],
+									 kCFBooleanTrue, appID );
+		else
+			CFPreferencesSetAppValue([cal uid],
+									 kCFBooleanFalse, appID );
+		
+		
 		NSLog(@"object in cal array: %@", cal);
-		NSLog(@"activate calendar %@-%@", [cal uid], [cal title]);
+		NSLog(@"activate calendar %@-%@-%@", [cal uid], [cal title], appID);
 	}
 }
 
