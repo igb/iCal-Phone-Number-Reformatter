@@ -16,6 +16,8 @@
 	IBOutlet NSButton    *iPhoneCheckbox;
 	IBOutlet NSButton    *blackberryCheckbox;
 	IBOutlet NSButton    *activateFormatterCheckbox;
+	NSArray *calendars;
+
 
 
 	
@@ -24,6 +26,7 @@
 - (id)initWithBundle:(NSBundle *)bundle;
 
 - (void) mainViewDidLoad;
+- (NSView*)getCalendarPane;
 
 - (IBAction)iPhoneClicked:(id)sender;
 - (IBAction)blackberryClicked:(id)sender;

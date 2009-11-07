@@ -16,9 +16,6 @@
 CFStringRef appID;
 
 
-- (IBAction)myAction:(id)sender {
-	NSLog(@"calendar %i", [sender tag]	);
-}
 
 - (NSView*)getCalendarPane {
 	
@@ -30,13 +27,35 @@ CFStringRef appID;
 		}	
 	}
 	
+	return nil;
+	
 
 }
+
+
+- (IBAction)myAction:(id)sender {
+	@synchronized(self) {
+		NSLog(@"sss4ync for checkbox %i state is  %i", [sender tag],[sender state]);
+		
+		
+		
+		[calendars objectAtIndex:[sender tag]];
+		NSLog(@"cal array %@", calendars);
+		CalCalendar*  cal = [calendars objectAtIndex:[sender tag]];
+		NSLog(@"object in cal array: %@", cal);
+		NSLog(@"activate calendar %@-%@", [cal uid], [cal title]);
+	}
+}
+
+
 
 - (void) mainViewDidLoad
 {
 	
-	NSArray* calendars=[[CalCalendarStore defaultCalendarStore] calendars];
+	calendars = [[NSMutableArray alloc] initWithArray:[[CalCalendarStore defaultCalendarStore] calendars] copyItems:NO];
+
+	
+
 
 	
 	NSView* calendarListPane = [self getCalendarPane];
@@ -46,7 +65,15 @@ CFStringRef appID;
 
 	
 	for (id cal in calendars) {
+		
+		
 	
+	CFPropertyListRef thisCalIsActive=CFPreferencesCopyAppValue([cal uid],  appID );
+	
+		
+		
+		
+		
 	 NSRect frame = NSMakeRect(10, 200 - (calendarsArrayIndex * 30), 100, 15); 
 	 NSButton *button = [[NSButton alloc] initWithFrame:frame]; 
 	 [button setButtonType:NSSwitchButton];
@@ -54,6 +81,14 @@ CFStringRef appID;
 	 [button setTag:calendarsArrayIndex];	
 	 [button setTarget:self];
 	 [button setAction:@selector(myAction:)];
+		
+	 if ( thisCalIsActive && CFGetTypeID(thisCalIsActive) == CFBooleanGetTypeID()  ) {
+			[button setState:CFBooleanGetValue(thisCalIsActive)];
+	 } else {
+			[button setState:NO];
+	 }	
+		
+		
 	 [calendarListPane addSubview:button]; 
 	 [button release];
 	 calendarsArrayIndex+=1;
