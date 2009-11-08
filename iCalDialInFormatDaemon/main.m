@@ -7,7 +7,20 @@
 
 #import "../iCalDialInFormat/constants.h"
 
+NSString* extract_digits(NSString* data)
+{
+	NSString*  extractedString = [[NSString alloc] initWithString:@""]; 
+	NSArray* numberTokens = [data arrayOfCaptureComponentsMatchedByRegex:@"([0-9]+)"];
+	
+	for (id token in numberTokens) {
+		extractedString=[extractedString stringByAppendingString:[token objectAtIndex:0]];
+	}
+	
+	return extractedString;
+	
+	
 
+}
 
 NSString* extract_single_value_for_regex(NSString *data, NSString* regex)
 {       
@@ -34,6 +47,42 @@ NSString* extract_single_value_for_regex(NSString *data, NSString* regex)
 }
 
 
+NSString* extract_single_value_for_regex_strategies(NSString *data, NSArray* strategies) {
+
+	for (id regex in strategies) {
+		
+		NSString* value=nil;
+		
+		value=extract_single_value_for_regex(data,	regex);
+		
+		if (value) {
+			return value;
+		}
+	}
+	return nil;
+	
+	
+}
+
+
+NSString* extract_phonenumber(NSString *calendarData)
+{       
+	
+	
+	NSMutableArray* phonenumberStrategies=[[NSMutableArray alloc] init];
+	
+	[phonenumberStrategies addObject:REGEX_US_PHONE_WITH_COUNTRY_CODE];
+	[phonenumberStrategies addObject:REGEX_US_PHONE_NO_COUNTRY_CODE];
+	[phonenumberStrategies addObject:REGEX_US_PHONE_NO_COUNTRY_CODE_PARENS];
+	[phonenumberStrategies addObject:REGEX_US_PHONE_NO_AREA_CODE];
+
+
+	
+	return extract_single_value_for_regex_strategies(calendarData, phonenumberStrategies);
+	
+}
+
+
 
 NSString* extract_passcode(NSString *calendarData)
 {       
@@ -45,18 +94,7 @@ NSString* extract_passcode(NSString *calendarData)
 	[passcodeStrategies addObject:REGEX_PARTICIPANT_CODE];
 	[passcodeStrategies addObject:REGEX_PC_ABBREV];
 	
-	
-	for (id regex in passcodeStrategies) {
-	
-		NSString* passcode=nil;
-	
-		passcode=extract_single_value_for_regex(calendarData,	regex);
-	
-		if (passcode) {
-			return passcode;
-		}
-	}
-	return nil;
+	return extract_single_value_for_regex_strategies(calendarData, passcodeStrategies);
 		
 }
 
@@ -81,7 +119,9 @@ int main (int argc, const char * argv[]) {
 	
 	
 	for (id cal in calendars) {
-		if (CFBooleanGetValue(isActiveValue) && CFPreferencesCopyAppValue([cal uid], APP_ID)) {
+		NSLog(@"is active for cal %@ %@", [cal title], CFPreferencesCopyAppValue([cal uid], APP_ID));
+		
+		if (CFBooleanGetValue(isActiveValue) && CFPreferencesCopyAppValue([cal uid], APP_ID) != nil && CFBooleanGetValue(CFPreferencesCopyAppValue([cal uid], APP_ID))) {
 			
 			NSLog(@"Formatter is active: %d", CFBooleanGetValue(isActiveValue));
 			NSLog(@"Running with active cal: %@", [cal title]);
@@ -102,39 +142,55 @@ int main (int argc, const char * argv[]) {
 			
 			// Fetch all events for this year
 			NSArray *events = [[CalCalendarStore defaultCalendarStore] eventsWithPredicate:eventsForThisYear];
-			id myEvent;
-			int count=0;
+			
 			for (id event in events) {
 				
 				NSString* passcode=nil;
-
+				NSString* phonenumber=nil;
 				
-				// CHECK LOCATION FOR PASSCODE
+				NSMutableArray* calendar_data = [[NSMutableArray alloc] init];
 				
-				if ( [event location] != nil ) {
-					
-					passcode=extract_passcode([event location]);					
-					
+				if ([event location] != nil) {
+					[calendar_data addObject:[event location]];
 				}
 				
-				// CHECK NOTES FOR PASSCODE
-
-				if ( [event notes] != nil  ) {
+				if ([event notes] != nil) {
+					[calendar_data addObject:[event notes]];
+				}
 				
+				for (id data in calendar_data) {
 					
-					passcode=extract_passcode([event notes]);
-					
-					
+					if (phonenumber == nil) {
+						phonenumber=extract_phonenumber(data);	
+					}
+						
+					if (phonenumber != nil) {
+						if (passcode == nil) {
+							passcode=extract_passcode(data);
+						}
+					}									
+				}
+				
+				if(phonenumber != nil) {
+					NSLog(@"PHONE: %@ %@", [event startDate], phonenumber);
+
 				}
 				
 				if(passcode != nil) {
-					NSLog(@"FOUNDEVENT: %@-%@", [event title], passcode);
-					count++;
+					NSLog(@"FOUNDEVENT: %@ %@", [event startDate], passcode);
+				}
+				
+				if (phonenumber != nil && passcode != nil ) {
+					
+					NSString* phoneString=extract_digits(phonenumber);
+					NSString* passcodeString=extract_digits(passcode);
+					
+					NSLog(@"String: %@,%@", phoneString, passcodeString);
+				
 				}
  
 				
 			}
-			NSLog(@"found %i events with passcode", count);
 			
 			//((CalCalendarItem*)myEvent).title=@"BTS"; 
 			

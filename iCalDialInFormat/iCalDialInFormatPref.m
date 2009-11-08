@@ -44,13 +44,16 @@ CFStringRef appID;
 		
 		CFPropertyListRef thisCalIsActive=CFPreferencesCopyAppValue([cal uid],  appID );
 
-		if ( [sender state] )
+		if ( [sender state] ) {
 			CFPreferencesSetAppValue([cal uid],
 									 kCFBooleanTrue, appID );
-		else
+			NSLog(@"setting to true");
+		} else {
 			CFPreferencesSetAppValue([cal uid],
 									 kCFBooleanFalse, appID );
-		
+			NSLog(@"setting to false");
+
+		}
 		
 		NSLog(@"object in cal array: %@", cal);
 		NSLog(@"activate calendar %@-%@-%@", [cal uid], [cal title], appID);
