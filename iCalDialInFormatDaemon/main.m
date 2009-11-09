@@ -22,6 +22,33 @@ NSString* extract_digits(NSString* data)
 
 }
 
+int matches(NSString *data, NSString* regex)
+{       
+	
+	NSArray  *capturesArray = NULL;
+	
+	capturesArray = [[data uppercaseString] arrayOfCaptureComponentsMatchedByRegex:regex];
+	
+	
+	if ([capturesArray count] == 0) {
+		return NO;
+	} else {
+		
+		NSArray* results=[capturesArray objectAtIndex:0];
+		if ([results count] ==0) {
+			return NO;
+		} else {
+			return YES;
+		}
+	}
+	
+	
+}
+
+
+
+
+
 NSString* extract_single_value_for_regex(NSString *data, NSString* regex)
 {       
 	
@@ -119,12 +146,12 @@ int main (int argc, const char * argv[]) {
 	
 	
 	for (id cal in calendars) {
-		NSLog(@"is active for cal %@ %@", [cal title], CFPreferencesCopyAppValue([cal uid], APP_ID));
+		//NSLog(@"is active for cal %@ %@", [cal title], CFPreferencesCopyAppValue([cal uid], APP_ID));
 		
 		if (CFBooleanGetValue(isActiveValue) && CFPreferencesCopyAppValue([cal uid], APP_ID) != nil && CFBooleanGetValue(CFPreferencesCopyAppValue([cal uid], APP_ID))) {
 			
-			NSLog(@"Formatter is active: %d", CFBooleanGetValue(isActiveValue));
-			NSLog(@"Running with active cal: %@", [cal title]);
+			//NSLog(@"Formatter is active: %d", CFBooleanGetValue(isActiveValue));
+			//NSLog(@"Running with active cal: %@", [cal title]);
 			
 			NSMutableArray* calArray = [[NSMutableArray alloc] init];
 			[calArray addObject:cal];
@@ -145,6 +172,9 @@ int main (int argc, const char * argv[]) {
 			
 			for (id event in events) {
 				
+
+				
+				
 				NSString* passcode=nil;
 				NSString* phonenumber=nil;
 				
@@ -156,6 +186,11 @@ int main (int argc, const char * argv[]) {
 				
 				if ([event notes] != nil) {
 					[calendar_data addObject:[event notes]];
+				
+					// CHECK TO SEE IF WE HAVE ALREDAY FORMATTED THIS ENTRY...(NEED A BETTER "STORE" SOLUTION)
+					if( matches([event notes], @"CLICK-2-CALL:") ) {
+						continue;
+					}
 				}
 				
 				for (id data in calendar_data) {
@@ -171,37 +206,36 @@ int main (int argc, const char * argv[]) {
 					}									
 				}
 				
-				if(phonenumber != nil) {
-					NSLog(@"PHONE: %@ %@", [event startDate], phonenumber);
-
-				}
-				
-				if(passcode != nil) {
-					NSLog(@"FOUNDEVENT: %@ %@", [event startDate], passcode);
-				}
-				
 				if (phonenumber != nil && passcode != nil ) {
 					
 					NSString* phoneString=extract_digits(phonenumber);
 					NSString* passcodeString=extract_digits(passcode);
 					
-					NSLog(@"String: %@,%@", phoneString, passcodeString);
-				
+					if ([event notes]==nil) {
+						((CalCalendarItem*)event).notes=@"";
+					}
+					
+					((CalCalendarItem*)event).notes=[[event notes] stringByAppendingFormat:@"\n\nClick-2-Call:\n\n%@,%@\n\n%@,%@#\n\nhttp://test.click-2-call.net/tel.html?%@,%@",phoneString,passcodeString,phoneString,passcodeString,phoneString,passcodeString];
+					
+					NSError *calError=nil;
+					if ([[CalCalendarStore defaultCalendarStore] saveEvent:event span:CalSpanThisEvent error:&calError] == NO) {
+						NSLog(@"error %@", calError);
+					} else {
+						
+						NSLog(@"saved cal event");
+
+
+					}
+					
+						
+					
 				}
- 
+				
+
+				
+				
 				
 			}
-			
-			//((CalCalendarItem*)myEvent).title=@"BTS"; 
-			
-			//NSLog(@"%@", [myEvent location]);
-			
-			
-			//NSError *calError;
-			//if ([[CalCalendarStore defaultCalendarStore] saveEvent:myEvent span:CalSpanThisEvent error:&calError] == NO){
-			//}
-			
-			
 			
 			
 		}
